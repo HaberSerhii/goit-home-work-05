@@ -232,7 +232,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-  transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-contacts:hover,
@@ -272,7 +272,7 @@ p {
   border: none;
   cursor: pointer;
 
-  transition: background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -405,7 +405,7 @@ p {
   background-color: var(--primary-brand-color);
   border-radius: 50%;
 
-  transition: background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-link:hover,
@@ -450,8 +450,8 @@ p {
 
   color: var(--subtle-text-color);
 
-  transition: background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1), color 250ms,
-    cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-link:hover,
@@ -535,7 +535,7 @@ p {
 .apps-link {
   display: block;
 
-  transition: box-shadow 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .apps-link:hover .app-overlay,
@@ -645,7 +645,7 @@ p {
   background-color: var(--primary-brand-color);
   border-radius: 50%;
 
-  transition: background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link:hover,
