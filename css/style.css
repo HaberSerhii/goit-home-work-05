@@ -23,7 +23,7 @@ body {
   background-color: var(--white-background-color);
   color: var(--text-color);
   font-family: var(--main-brand-font);
-  width: 1440px;
+  /* width: 1440px; */
   margin: auto;
 }
 
