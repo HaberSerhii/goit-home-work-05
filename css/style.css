@@ -173,7 +173,7 @@ p {
   display: inline-block;
   padding: 24px 0;
 
-  color: var(--pressed-state-color);
+  color: var(--dark-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -192,7 +192,9 @@ p {
   border-radius: 2px;
 }
 
-.nav-link::after {
+/* active */
+
+.nav-link.active::after {
   content: "";
   position: absolute;
   bottom: -1px;
@@ -204,10 +206,8 @@ p {
   background-color: var(--pressed-state-color);
 }
 
-/* active */
-
-.nav-link.active::after {
-  background-color: var(--pressed-state-color);
+.nav-link.active {
+  color: var(--pressed-state-color);
 }
 
 /* Contact us (Address) */
